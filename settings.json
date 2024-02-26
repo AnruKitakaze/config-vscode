@@ -1,57 +1,68 @@
 {
-    "files.autoSave": "afterDelay",
-    "notebook.lineNumbers": "on",
-    "explorer.confirmDelete": false,
-    "security.workspace.trust.untrustedFiles": "open",
-    "files.associations": {
-        "*.rmd": "markdown"
-    },
-    "editor.unicodeHighlight.nonBasicASCII": false,
-    "editor.formatOnSave": true,
-    "editor.formatOnPaste": true,
-    "python.analysis.typeCheckingMode": "basic",
-    "git.confirmSync": false,
-    "python.formatting.provider": "black",
-    "workbench.tree.indent": 16,
-    "terminal.integrated.enableMultiLinePasteWarning": false,
-    "diffEditor.ignoreTrimWhitespace": false,
-    "editor.rulers": [
-        88
-    ],
-    "python.analysis.extraPaths": [
-        "/home/anru/repos/tass-models/tass_models"
-    ],
-    "explorer.confirmDragAndDrop": false,
-    "vim.handleKeys": {
-        "<C-d>": true,
-        "<C-s>": false,
-        "<C-z>": false
-    },
-    "editor.stickyScroll.enabled": true,
-    "settingsSync.ignoredSettings": [
-        "vim.smartRelativeLine"
-    ],
-    "vim.neovimPath": "\\\\wsl$\\Ubuntu\\usr\\bin\\nvim",
-    "vim.normalModeKeyBindingsNonRecursive": [],
-    "vim.neovimConfigPath": "\\\\wsl$\\Ubuntu\\home\\anru\\.config\\nvim",
-    "vim.leader": " ",
-    "vim.useSystemClipboard": true,
-    "window.zoomLevel": 1,
-    "git.autofetch": true,
-    "[pip-requirements]": {},
-    "workbench.startupEditor": "none",
-    "editor.lineNumbers": "relative",
-    "remote.autoForwardPortsSource": "hybrid",
-    "black-formatter.cwd": "${fileDirname}",
-    "black-formatter.importStrategy": "fromEnvironment",
-    "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter"
-    },
-    "explorer.confirmPasteNative": false,
-    "editor.autoClosingQuotes": "never",
-    "extensions.experimental.affinity": {
-        "asvetliakov.vscode-neovim": 1
-    },
-    "vscode-neovim.neovimExecutablePaths.linux": "/usr/local/bin/nvim",
-    "editor.minimap.enabled": false,
+  "editor.suggest.insertMode": "replace",
+  "editor.linkedEditing": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "launch": {},
+  "[json]": {},
+  "workbench.statusBar.visible": true,
+  "editor.minimap.enabled": false,
+  "breadcrumbs.enabled": false,
+  "update.showReleaseNotes": false,
+  "zenMode.hideLineNumbers": false,
+  "files.autoSave": "afterDelay",
+  "notebook.lineNumbers": "on",
+  "explorer.confirmDelete": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "files.associations": {
+    "*.rmd": "markdown"
+  },
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "python.analysis.typeCheckingMode": "basic",
+  "git.confirmSync": false,
+  "python.formatting.provider": "black",
+  "workbench.tree.indent": 16,
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.rulers": [100],
+  "python.analysis.extraPaths": ["/home/anru/repos/tass-models/tass_models"],
+  "explorer.confirmDragAndDrop": false,
+  "vim.handleKeys": {
+    "<C-d>": true,
+    "<C-s>": false,
+    "<C-z>": false
+  },
+  "editor.stickyScroll.enabled": true,
+  "settingsSync.ignoredSettings": ["vim.smartRelativeLine"],
+  "vim.neovimPath": "\\\\wsl$\\Ubuntu\\usr\\bin\\nvim",
+  "vim.neovimConfigPath": "\\\\wsl$\\Ubuntu\\home\\anru\\.config\\nvim",
+  "vim.useSystemClipboard": true,
+  "window.zoomLevel": 1,
+  "git.autofetch": true,
+  "[pip-requirements]": {},
+  "workbench.startupEditor": "none",
+  "editor.lineNumbers": "relative",
+  "remote.autoForwardPortsSource": "hybrid",
+  "black-formatter.cwd": "${fileDirname}",
+  "black-formatter.importStrategy": "fromEnvironment",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "explorer.confirmPasteNative": false,
+  "editor.autoClosingQuotes": "never",
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "vscode-neovim.neovimExecutablePaths.linux": "/usr/local/bin/nvim",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "go.toolsManagement.autoUpdate": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }

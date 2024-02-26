@@ -1,3 +1,70 @@
 // Place your key bindings in this file to override the defaults
 [
+  // NAVIGATION
+  {
+    "key": "ctrl+shift+a",
+    "command": "workbench.action.terminal.focusNext",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+shift+b",
+    "command": "workbench.action.terminal.focusPrevious",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+shift+n",
+    "command": "workbench.action.terminal.new",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+shift+q",
+    "command": "workbench.action.terminal.kill",
+    "when": "terminalFocus"
+  },
+  // FILE TREE
+  {
+    "command": "workbench.action.toggleSidebarVisibility",
+    "key": "ctrl+e"
+  },
+  {
+    "command": "workbench.files.action.focusFilesExplorer",
+    "key": "ctrl+e",
+    "when": "editorTextFocus"
+  },
+  {
+    "command": "workbench.action.newWindow",
+    "key": "shift+n",
+    "when": "!explorerViewletFocus"
+  },
+  // netrw keybindings
+  {
+    "command": "explorer.newFile",
+    "key": "shift+5",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "command": "renameFile",
+    "key": "shift+r",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "command": "explorer.newFolder",
+    "key": "d",
+    "when": "explorerViewletFocus"
+  },
+  {
+    "command": "deleteFile",
+    "key": "shift+d",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+
+  // Misc
+  {
+    "key": "ctrl+shift+5",
+    "command": "editor.emmet.action.matchTag"
+  },
+  {
+    "key": "ctrl+z",
+    "command": "workbench.action.toggleZenMode"
+  }
 ]
