@@ -31,11 +31,6 @@
     "key": "ctrl+e",
     "when": "editorTextFocus"
   },
-  {
-    "command": "workbench.action.newWindow",
-    "key": "shift+n",
-    "when": "!explorerViewletFocus"
-  },
   // netrw keybindings
   {
     "command": "explorer.newFile",
