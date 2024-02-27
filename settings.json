@@ -62,14 +62,14 @@
   "terminal.integrated.enableMultiLinePasteWarning": false,
   "update.showReleaseNotes": false,
   "vscode-neovim.neovimExecutablePaths.linux": "/usr/local/bin/nvim",
-  "window.menuBarVisibility": "toggle",
   "window.zoomLevel": 1.2,
   "workbench.colorCustomizations": {
     // custom colors here
   },
-  "workbench.editor.showTabs": "single",
+  "workbench.editor.showTabs": "multiple",
   "workbench.startupEditor": "none",
-  "workbench.statusBar.visible": true,
   "workbench.tree.indent": 16,
-  "zenMode.hideLineNumbers": false
+  "zenMode.hideLineNumbers": false,
+  "window.menuBarVisibility": "toggle",
+  "workbench.colorTheme": "Gruvbox Dark Hard"
 }
