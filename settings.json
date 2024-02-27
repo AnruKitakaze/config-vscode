@@ -1,69 +1,75 @@
 {
-  "editor.suggest.insertMode": "replace",
-  "editor.cursorSurroundingLines": 8,
-  "editor.linkedEditing": true,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "launch": {},
   "[json]": {},
-  "workbench.statusBar.visible": true,
-  "editor.minimap.enabled": false,
-  "breadcrumbs.enabled": false,
-  "update.showReleaseNotes": false,
-  "zenMode.hideLineNumbers": false,
-  "files.autoSave": "afterDelay",
-  "notebook.lineNumbers": "on",
-  "explorer.confirmDelete": false,
-  "security.workspace.trust.untrustedFiles": "open",
-  "files.associations": {
-    "*.rmd": "markdown"
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "editor.unicodeHighlight.nonBasicASCII": false,
-  "editor.formatOnSave": true,
-  "editor.formatOnPaste": true,
-  "python.analysis.typeCheckingMode": "basic",
-  "git.confirmSync": false,
-  "python.formatting.provider": "black",
-  "workbench.tree.indent": 16,
-  "terminal.integrated.enableMultiLinePasteWarning": false,
-  "diffEditor.ignoreTrimWhitespace": false,
-  "editor.rulers": [100],
-  "python.analysis.extraPaths": ["/home/anru/repos/tass-models/tass_models"],
-  "explorer.confirmDragAndDrop": false,
-  "vim.handleKeys": {
-    "<C-d>": true,
-    "<C-s>": false,
-    "<C-z>": false
-  },
-  "editor.stickyScroll.enabled": true,
-  "settingsSync.ignoredSettings": ["vim.smartRelativeLine"],
-  "vim.neovimPath": "\\\\wsl$\\Ubuntu\\usr\\bin\\nvim",
-  "vim.neovimConfigPath": "\\\\wsl$\\Ubuntu\\home\\anru\\.config\\nvim",
-  "vim.useSystemClipboard": true,
-  "window.zoomLevel": 1,
-  "git.autofetch": true,
   "[pip-requirements]": {},
-  "workbench.startupEditor": "none",
-  "editor.lineNumbers": "relative",
-  "remote.autoForwardPortsSource": "hybrid",
-  "black-formatter.cwd": "${fileDirname}",
-  "black-formatter.importStrategy": "fromEnvironment",
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter"
   },
-  "explorer.confirmPasteNative": false,
-  "editor.autoClosingQuotes": "never",
-  "extensions.experimental.affinity": {
-    "asvetliakov.vscode-neovim": 1
-  },
-  "vscode-neovim.neovimExecutablePaths.linux": "/usr/local/bin/nvim",
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "go.toolsManagement.autoUpdate": true,
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[jsonc]": {
+  "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "black-formatter.cwd": "${fileDirname}",
+  "black-formatter.importStrategy": "fromEnvironment",
+  "breadcrumbs.enabled": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.autoClosingQuotes": "never",
+  "editor.cursorBlinking": "solid",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorSurroundingLines": 8,
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.lineNumbers": "relative",
+  "editor.linkedEditing": true,
+  "editor.minimap.enabled": false,
+  "editor.rulers": [100],
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.showFoldingControls": "never",
+  "editor.stickyScroll.enabled": true,
+  "editor.suggest.insertMode": "replace",
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmPasteNative": false,
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "files.associations": {
+    "*.rmd": "markdown"
+  },
+  "files.autoSave": "afterDelay",
+  "files.insertFinalNewline": false,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "gitlens.codeLens.authors.enabled": false,
+  "go.toolsManagement.autoUpdate": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "launch": {},
+  "notebook.lineNumbers": "on",
+  "python.analysis.extraPaths": [],
+  "python.analysis.typeCheckingMode": "basic",
+  "python.formatting.provider": "black",
+  "remote.autoForwardPortsSource": "hybrid",
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "update.showReleaseNotes": false,
+  "vscode-neovim.neovimExecutablePaths.linux": "/usr/local/bin/nvim",
+  "window.menuBarVisibility": "toggle",
+  "window.zoomLevel": 1.2,
+  "workbench.colorCustomizations": {
+    // custom colors here
+  },
+  "workbench.editor.showTabs": "single",
+  "workbench.startupEditor": "none",
+  "workbench.statusBar.visible": true,
+  "workbench.tree.indent": 16,
+  "zenMode.hideLineNumbers": false
 }
