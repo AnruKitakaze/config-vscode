@@ -49,8 +49,8 @@
   "editor.suggest.insertMode": "replace",
   "editor.unicodeHighlight.nonBasicASCII": false,
   "explorer.compactFolders": false,
-  "explorer.confirmDelete": false,
-  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": true,
+  "explorer.confirmDragAndDrop": true,
   "explorer.confirmPasteNative": false,
   "extensions.experimental.affinity": {
     "asvetliakov.vscode-neovim": 1
