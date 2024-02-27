@@ -31,6 +31,19 @@
   "editor.rulers": [100],
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "hidden",
+  "editor.semanticHighlighting.enabled": true,
+  "editor.semanticTokenColorCustomizations": {
+    "[Gruvbox Dark Hard]": {
+      "enabled": true,
+      "rules": {
+        "variable": { "foreground": "#83A598" },
+        "*.typeHint": "#fabd2f",
+        "property.declaration:python": "#83A598",
+        "property:python": "#83A598",
+        "selfParameter": "#638779"
+      }
+    }
+  },
   "editor.showFoldingControls": "never",
   "editor.stickyScroll.enabled": true,
   "editor.suggest.insertMode": "replace",
