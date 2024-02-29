@@ -1,6 +1,6 @@
 // Place your key bindings in this file to override the defaults
 [
-  // NAVIGATION
+  // Terminal
   {
     "key": "ctrl+shift+a",
     "command": "workbench.action.terminal.focusNext",
@@ -21,17 +21,39 @@
     "command": "workbench.action.terminal.kill",
     "when": "terminalFocus"
   },
-  // FILE TREE
+  // Tabs
   {
-    "command": "workbench.action.toggleSidebarVisibility",
-    "key": "ctrl+e"
-  },
-  {
-    "command": "workbench.files.action.focusFilesExplorer",
-    "key": "ctrl+e",
+    "key": "ctrl+j",
+    "command": "workbench.action.previousEditor",
     "when": "editorTextFocus"
   },
-  // netrw keybindings
+  {
+    "key": "ctrl+k",
+    "command": "workbench.action.nextEditor",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+j",
+    "command": "workbench.action.moveEditorLeftInGroup",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+k",
+    "command": "workbench.action.moveEditorRightInGroup",
+    "when": "editorTextFocus"
+  },
+  // Sidebar
+  {
+    "key": "ctrl+e",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  // Files Explorer
+  {
+    "key": "ctrl+e",
+    "command": "workbench.files.action.focusFilesExplorer",
+    "when": "editorTextFocus"
+  },
+  // NOTE: I use netrw keybindings, so maybe you want to cahnge it
   {
     "command": "explorer.newFile",
     "key": "shift+5",
@@ -51,6 +73,12 @@
     "command": "deleteFile",
     "key": "shift+d",
     "when": "filesExplorerFocus && !inputFocus"
+  },
+  // Search List
+  {
+    "key": "enter",
+    "command": "search.action.focusSearchList",
+    "when": "inSearchEditor || searchViewletFocus"
   },
 
   // Misc
