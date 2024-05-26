@@ -81,6 +81,8 @@
   "workbench.tree.indent": 16,
   "zenMode.hideLineNumbers": false,
   "window.menuBarVisibility": "toggle",
+  "window.newWindowDimensions": "maximized",
+  "window.restoreFullscreen": true,
   "window.zoomLevel": 1.2,
   "vim.neovimPath": "\\\\wsl$\\Ubuntu\\usr\\bin\\nvim",
   "vim.neovimConfigPath": "\\\\wsl$\\Ubuntu\\home\\anru\\.config\\nvim",
