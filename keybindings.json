@@ -55,23 +55,23 @@
   },
   // NOTE: I use netrw keybindings, so maybe you want to cahnge it
   {
-    "command": "explorer.newFile",
     "key": "shift+5",
+    "command": "explorer.newFile",
     "when": "filesExplorerFocus && !inputFocus"
   },
   {
-    "command": "renameFile",
     "key": "shift+r",
+    "command": "renameFile",
     "when": "filesExplorerFocus && !inputFocus"
   },
   {
-    "command": "explorer.newFolder",
     "key": "d",
-    "when": "explorerViewletFocus"
+    "command": "explorer.newFolder",
+    "when": "explorerViewletFocus && !inputFocus"
   },
   {
-    "command": "deleteFile",
     "key": "shift+d",
+    "command": "deleteFile",
     "when": "filesExplorerFocus && !inputFocus"
   },
   // Search List
@@ -80,7 +80,6 @@
     "command": "search.action.focusSearchList",
     "when": "inSearchEditor || searchViewletFocus"
   },
-
   // Misc
   {
     "key": "ctrl+shift+5",

@@ -5,7 +5,7 @@
   },
   "[pip-requirements]": {},
   "[python]": {
-    "editor.defaultFormatter": "ms-python.black-formatter"
+    "editor.defaultFormatter": "ms-python.autopep8"
   },
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -15,7 +15,6 @@
   },
   "black-formatter.cwd": "${fileDirname}",
   "black-formatter.importStrategy": "fromEnvironment",
-  "breadcrumbs.enabled": false,
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.autoClosingQuotes": "never",
   "editor.cursorBlinking": "solid",
@@ -28,7 +27,7 @@
   "editor.lineNumbers": "relative",
   "editor.linkedEditing": true,
   "editor.minimap.enabled": false,
-  "editor.rulers": [100],
+  "editor.rulers": [120],
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "visible",
   "editor.semanticHighlighting.enabled": true,
@@ -69,19 +68,32 @@
   "notebook.lineNumbers": "on",
   "python.analysis.extraPaths": [],
   "python.analysis.typeCheckingMode": "basic",
-  "python.formatting.provider": "black",
   "remote.autoForwardPortsSource": "hybrid",
   "security.workspace.trust.untrustedFiles": "open",
   "terminal.integrated.enableMultiLinePasteWarning": false,
   "update.showReleaseNotes": false,
   "vscode-neovim.neovimExecutablePaths.linux": "/usr/local/bin/nvim",
   "vscode-neovim.useWSL": true,
-  "window.zoomLevel": 1.2,
   "workbench.colorCustomizations": {},
   "workbench.colorTheme": "Gruvbox Dark Hard",
   "workbench.editor.showTabs": "multiple",
   "workbench.startupEditor": "none",
   "workbench.tree.indent": 16,
   "zenMode.hideLineNumbers": false,
-  "window.menuBarVisibility": "toggle"
+  "window.menuBarVisibility": "toggle",
+  "window.zoomLevel": 1.2,
+  "vim.neovimPath": "\\\\wsl$\\Ubuntu\\usr\\bin\\nvim",
+  "vim.neovimConfigPath": "\\\\wsl$\\Ubuntu\\home\\anru\\.config\\nvim",
+  "autopep8.importStrategy": "fromEnvironment",
+  "autopep8.args": ["max_line_length=120"],
+  "autoDocstring.docstringFormat": "sphinx-notypes",
+  "autoDocstring.startOnNewLine": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.sideBar.location": "right",
+  "git.replaceTagsWhenPull": true,
+  "editor.unicodeHighlight.allowedLocales": {
+    "ru": true
+  }
 }
