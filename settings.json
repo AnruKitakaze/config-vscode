@@ -1,11 +1,13 @@
 {
-  "[json]": {},
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[pip-requirements]": {},
   "[python]": {
-    "editor.defaultFormatter": "ms-python.autopep8"
+    "editor.defaultFormatter": "charliermarsh.ruff"
   },
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -21,7 +23,7 @@
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorSurroundingLines": 8,
   "editor.fontLigatures": true,
-  "editor.fontSize": 14,
+  "editor.fontSize": 15,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.lineNumbers": "relative",
@@ -49,7 +51,7 @@
   "editor.unicodeHighlight.nonBasicASCII": false,
   "explorer.compactFolders": false,
   "explorer.confirmDelete": false,
-  "explorer.confirmDragAndDrop": true,
+  "explorer.confirmDragAndDrop": false,
   "explorer.confirmPasteNative": false,
   "extensions.experimental.affinity": {
     "asvetliakov.vscode-neovim": 1
@@ -75,7 +77,6 @@
   "vscode-neovim.neovimExecutablePaths.linux": "/usr/local/bin/nvim",
   "vscode-neovim.useWSL": true,
   "workbench.colorCustomizations": {},
-  "workbench.colorTheme": "Gruvbox Dark Hard",
   "workbench.editor.showTabs": "multiple",
   "workbench.startupEditor": "none",
   "workbench.tree.indent": 16,
@@ -87,7 +88,6 @@
   "vim.neovimPath": "\\\\wsl$\\Ubuntu\\usr\\bin\\nvim",
   "vim.neovimConfigPath": "\\\\wsl$\\Ubuntu\\home\\anru\\.config\\nvim",
   "autopep8.importStrategy": "fromEnvironment",
-  "autopep8.args": ["max_line_length=120"],
   "autoDocstring.docstringFormat": "sphinx-notypes",
   "autoDocstring.startOnNewLine": true,
   "[html]": {
@@ -97,5 +97,8 @@
   "git.replaceTagsWhenPull": true,
   "editor.unicodeHighlight.allowedLocales": {
     "ru": true
-  }
+  },
+  "git.suggestSmartCommit": false,
+  "workbench.colorTheme": "Gruvbox Dark Hard",
+  "go.diagnostic.vulncheck": "Imports"
 }

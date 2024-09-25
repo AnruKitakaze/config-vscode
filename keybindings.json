@@ -86,7 +86,18 @@
     "command": "editor.emmet.action.matchTag"
   },
   {
-    "key": "ctrl+z",
-    "command": "workbench.action.toggleZenMode"
+    "key": "ctrl+g r",
+    "command": "editor.action.goToReferences",
+    "when": "editorHasReferenceProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+  },
+  {
+    "key": "ctrl+g c",
+    "command": "git.checkout",
+    "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+h",
+    "command": "editor.action.showHover",
+    "when": "editorTextFocus"
   }
 ]
