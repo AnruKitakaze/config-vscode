@@ -100,5 +100,8 @@
   },
   "git.suggestSmartCommit": false,
   "workbench.colorTheme": "Gruvbox Dark Hard",
-  "go.diagnostic.vulncheck": "Imports"
+  "go.diagnostic.vulncheck": "Imports",
+  "security.allowedUNCHosts": [
+    "wsl.localhost"
+  ]
 }

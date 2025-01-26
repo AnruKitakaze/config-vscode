@@ -99,5 +99,10 @@
     "key": "ctrl+h",
     "command": "editor.action.showHover",
     "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "list.collapse",
+    "when": "editorTextFocus"
   }
 ]
