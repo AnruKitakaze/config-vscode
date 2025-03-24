@@ -78,6 +78,7 @@
   "vscode-neovim.useWSL": true,
   "workbench.colorCustomizations": {},
   "workbench.editor.showTabs": "multiple",
+  "workbench.editor.restoreViewState": true,
   "workbench.startupEditor": "none",
   "workbench.tree.indent": 16,
   "zenMode.hideLineNumbers": false,
@@ -101,7 +102,12 @@
   "git.suggestSmartCommit": false,
   "workbench.colorTheme": "Gruvbox Dark Hard",
   "go.diagnostic.vulncheck": "Imports",
-  "security.allowedUNCHosts": [
-    "wsl.localhost"
-  ]
+  "security.allowedUNCHosts": ["wsl.localhost"],
+  "zig.zls.enabled": "on",
+  "continue.telemetryEnabled": false,
+  "continue.enableTabAutocomplete": true,
+  "github.copilot.advanced": {
+    "authProvider": "github"
+  }
 }
+

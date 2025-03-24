@@ -91,18 +91,56 @@
     "when": "editorHasReferenceProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
   },
   {
-    "key": "ctrl+g c",
-    "command": "git.checkout",
-    "when": "editorFocus"
-  },
-  {
     "key": "ctrl+h",
     "command": "editor.action.showHover",
     "when": "editorTextFocus"
   },
   {
+    "key": "ctrl+shift+z",
+    "command": "workbench.action.toggleZenMode"
+  },
+  {
+    "key": "ctrl+a l",
+    "command": "continue.focusContinueInput"
+  },
+  {
     "key": "ctrl+l",
-    "command": "list.collapse",
-    "when": "editorTextFocus"
+    "command": "-continue.focusContinueInput"
+  },
+  {
+    "key": "ctrl+a i",
+    "command": "continue.focusEdit"
+  },
+  {
+    "key": "ctrl+i",
+    "command": "-continue.focusEdit"
+  },
+  {
+    "key": "ctrl+a ctrl+a",
+    "command": "continue.toggleTabAutocompleteEnabled",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "ctrl+k ctrl+a",
+    "command": "-continue.toggleTabAutocompleteEnabled",
+    "when": "!terminalFocus"
+  },
+  // Suggestions keymaps
+  {
+    "key": "ctrl+p",
+    "command": "selectPrevSuggestion",
+    "when": "suggestWidgetVisible"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "selectNextSuggestion",
+    "when": "suggestWidgetVisible"
+  },
+  {
+    "key": "ctrl+y",
+    "command": "acceptSelectedSuggestion",
+    "when": "suggestWidgetVisible"
   }
+  // Continue config
 ]
+
