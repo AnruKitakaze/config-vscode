@@ -1,4 +1,7 @@
 {
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -15,8 +18,13 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "autoDocstring.startOnNewLine": true,
+  "autopep8.importStrategy": "fromEnvironment",
   "black-formatter.cwd": "${fileDirname}",
   "black-formatter.importStrategy": "fromEnvironment",
+  "continue.enableTabAutocomplete": false,
+  "continue.showInlineTip": false,
+  "continue.telemetryEnabled": false,
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.autoClosingQuotes": "never",
   "editor.cursorBlinking": "solid",
@@ -29,6 +37,7 @@
   "editor.lineNumbers": "relative",
   "editor.linkedEditing": true,
   "editor.minimap.enabled": false,
+  "editor.overtypeOnPaste": false,
   "editor.rulers": [120],
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "visible",
@@ -37,17 +46,22 @@
     "[Gruvbox Dark Hard]": {
       "enabled": true,
       "rules": {
-        "variable": { "foreground": "#83A598" },
         "*.typeHint": "#fabd2f",
         "property.declaration:python": "#83A598",
         "property:python": "#83A598",
-        "selfParameter": "#638779"
+        "selfParameter": "#638779",
+        "variable": {
+          "foreground": "#83A598"
+        }
       }
     }
   },
   "editor.showFoldingControls": "never",
   "editor.stickyScroll.enabled": true,
   "editor.suggest.insertMode": "replace",
+  "editor.unicodeHighlight.allowedLocales": {
+    "ru": true
+  },
   "editor.unicodeHighlight.nonBasicASCII": false,
   "explorer.compactFolders": false,
   "explorer.confirmDelete": false,
@@ -63,7 +77,14 @@
   "files.insertFinalNewline": false,
   "git.autofetch": true,
   "git.confirmSync": false,
+  "git.openRepositoryInParentFolders": "never",
+  "git.replaceTagsWhenPull": true,
+  "git.suggestSmartCommit": false,
+  "github.copilot.advanced": {
+    "authProvider": "github"
+  },
   "gitlens.codeLens.authors.enabled": false,
+  "go.diagnostic.vulncheck": "Imports",
   "go.toolsManagement.autoUpdate": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "launch": {},
@@ -71,43 +92,24 @@
   "python.analysis.extraPaths": [],
   "python.analysis.typeCheckingMode": "basic",
   "remote.autoForwardPortsSource": "hybrid",
+  "security.allowedUNCHosts": ["wsl.localhost"],
   "security.workspace.trust.untrustedFiles": "open",
-  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "terminal.integrated.enableMultiLinePasteWarning": "auto",
   "update.showReleaseNotes": false,
+  "vim.neovimConfigPath": "\\\\wsl$\\Ubuntu\\home\\anru\\.config\\nvim",
+  "vim.neovimPath": "\\\\wsl$\\Ubuntu\\usr\\bin\\nvim",
   "vscode-neovim.neovimExecutablePaths.linux": "/usr/local/bin/nvim",
   "vscode-neovim.useWSL": true,
-  "workbench.colorCustomizations": {},
-  "workbench.editor.showTabs": "multiple",
-  "workbench.editor.restoreViewState": true,
-  "workbench.startupEditor": "none",
-  "workbench.tree.indent": 16,
-  "zenMode.hideLineNumbers": false,
-  "window.menuBarVisibility": "toggle",
+  "window.menuBarVisibility": "compact",
   "window.newWindowDimensions": "maximized",
   "window.restoreFullscreen": true,
   "window.zoomLevel": 1.2,
-  "vim.neovimPath": "\\\\wsl$\\Ubuntu\\usr\\bin\\nvim",
-  "vim.neovimConfigPath": "\\\\wsl$\\Ubuntu\\home\\anru\\.config\\nvim",
-  "autopep8.importStrategy": "fromEnvironment",
-  "autoDocstring.docstringFormat": "sphinx-notypes",
-  "autoDocstring.startOnNewLine": true,
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "workbench.sideBar.location": "right",
-  "git.replaceTagsWhenPull": true,
-  "editor.unicodeHighlight.allowedLocales": {
-    "ru": true
-  },
-  "git.suggestSmartCommit": false,
   "workbench.colorTheme": "Gruvbox Dark Hard",
-  "go.diagnostic.vulncheck": "Imports",
-  "security.allowedUNCHosts": ["wsl.localhost"],
-  "zig.zls.enabled": "on",
-  "continue.telemetryEnabled": false,
-  "continue.enableTabAutocomplete": true,
-  "github.copilot.advanced": {
-    "authProvider": "github"
-  }
+  "workbench.editor.restoreViewState": true,
+  "workbench.editor.showTabs": "multiple",
+  "workbench.sideBar.location": "right",
+  "workbench.startupEditor": "none",
+  "workbench.tree.indent": 16,
+  "zenMode.hideLineNumbers": false,
+  "zig.zls.enabled": "on"
 }
-

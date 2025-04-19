@@ -99,6 +99,29 @@
     "key": "ctrl+shift+z",
     "command": "workbench.action.toggleZenMode"
   },
+  // Absolutely hate it
+  {
+    "key": "insert",
+    "command": "-editor.action.toggleOvertypeInsertMode"
+  },
+  // Suggestions keymaps
+  {
+    "key": "ctrl+p",
+    "command": "selectPrevSuggestion",
+    "when": "suggestWidgetVisible"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "selectNextSuggestion",
+    "when": "suggestWidgetVisible"
+  },
+  {
+    "key": "ctrl+y",
+    "command": "acceptSelectedSuggestion",
+    "when": "suggestWidgetVisible"
+  },
+  // Plugin config
+  // Continue
   {
     "key": "ctrl+a l",
     "command": "continue.focusContinueInput"
@@ -124,23 +147,6 @@
     "key": "ctrl+k ctrl+a",
     "command": "-continue.toggleTabAutocompleteEnabled",
     "when": "!terminalFocus"
-  },
-  // Suggestions keymaps
-  {
-    "key": "ctrl+p",
-    "command": "selectPrevSuggestion",
-    "when": "suggestWidgetVisible"
-  },
-  {
-    "key": "ctrl+n",
-    "command": "selectNextSuggestion",
-    "when": "suggestWidgetVisible"
-  },
-  {
-    "key": "ctrl+y",
-    "command": "acceptSelectedSuggestion",
-    "when": "suggestWidgetVisible"
   }
-  // Continue config
 ]
 
