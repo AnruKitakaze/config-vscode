@@ -119,34 +119,6 @@
     "key": "ctrl+y",
     "command": "acceptSelectedSuggestion",
     "when": "suggestWidgetVisible"
-  },
-  // Plugin config
-  // Continue
-  {
-    "key": "ctrl+a l",
-    "command": "continue.focusContinueInput"
-  },
-  {
-    "key": "ctrl+l",
-    "command": "-continue.focusContinueInput"
-  },
-  {
-    "key": "ctrl+a i",
-    "command": "continue.focusEdit"
-  },
-  {
-    "key": "ctrl+i",
-    "command": "-continue.focusEdit"
-  },
-  {
-    "key": "ctrl+a ctrl+a",
-    "command": "continue.toggleTabAutocompleteEnabled",
-    "when": "!terminalFocus"
-  },
-  {
-    "key": "ctrl+k ctrl+a",
-    "command": "-continue.toggleTabAutocompleteEnabled",
-    "when": "!terminalFocus"
   }
+  // Plugin config
 ]
-
